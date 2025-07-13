@@ -1,0 +1,19 @@
+# 忽略所有运行结果和中间数据
+result/
+datasets/
+.ipynb_checkpoints/
+__pycache__/
+
+# 忽略大模型或缓存文件
+*.pt
+*.pth
+*.h5
+*.pkl
+*.zip
+*.tar
+*.csv
+
+# 忽略 VSCode 和 Python 的隐藏配置
+.vscode/
+.env
+*.egg-info/
